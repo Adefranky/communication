@@ -1,0 +1,44 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  max-width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: maroon;
+  color: #fff; 
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* Button styling */
+button.mat-raised-button {
+  background-color: maroon;
+  color: white;
+}
+
+button.mat-raised-button:hover {
+  background-color: darkred; /* Optional: Change color on hover */
+}
+
+button.mat-raised-button:active {
+  background-color: darkred; /* Optional: Change color on click */
+}
+
+
+mat-form-field, button {
+  margin-bottom: 16px;
+}
+
